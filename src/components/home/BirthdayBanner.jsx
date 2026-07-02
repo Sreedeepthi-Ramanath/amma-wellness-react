@@ -6,7 +6,7 @@ function BirthdayBanner() {
           <div className="absolute -top-4 -left-4 w-full h-full bg-pink-100 rounded-3xl"></div>
 
           <img
-            src="/src/assets/images/amma.jpg"
+            src="/src/assets/images/amma.JPG"
             alt="Amma"
             className="relative w-full h-[550px] object-contain rounded-3xl shadow-xl border-8 border-white bg-white"
           />
