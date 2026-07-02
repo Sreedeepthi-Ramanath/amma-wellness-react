@@ -1,15 +1,20 @@
+import ammaPhoto from "../../assets/images/amma.jpg";
+
 function BirthdayBanner() {
   return (
     <div className="bg-white/90 backdrop-blur rounded-[2rem] shadow-2xl border border-pink-100 p-6 md:p-8">
       <div className="grid md:grid-cols-2 gap-8 items-center">
-        <div className="relative">
-          <div className="absolute -top-4 -left-4 w-full h-full bg-pink-100 rounded-3xl"></div>
-
-          <img
-            src="/src/assets/images/amma.JPG"
-            alt="Amma"
-            className="relative w-full h-[550px] object-contain rounded-3xl shadow-xl border-8 border-white bg-white"
-          />
+        <div className="flex justify-center">
+          <div className="bg-white p-4 rounded-[2rem] shadow-2xl">
+            <img
+              src={ammaPhoto}
+              alt="Amma"
+              className="max-w-[380px] w-full h-auto rounded-3xl object-contain"
+            />
+            <p className="text-center mt-4 text-pink-600 font-bold">
+              Our Beautiful Amma ❤️
+            </p>
+          </div>
         </div>
 
         <div>
@@ -32,10 +37,6 @@ function BirthdayBanner() {
           <p className="mt-6 text-2xl font-bold text-rose-600">
             With love, your daughters ❤️
           </p>
-
-          <button className="mt-8 bg-pink-500 hover:bg-pink-600 text-white px-8 py-4 rounded-full font-bold shadow-lg">
-            🎉 Begin Your Special Day
-          </button>
         </div>
       </div>
     </div>
